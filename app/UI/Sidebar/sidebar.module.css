@@ -1,0 +1,28 @@
+.container {
+    height: 95vh;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url("../../../public/assets/images/bg-sidebar-desktop.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+}
+
+.ActiveIcon {
+    background-color: var(--Magnolia);
+}
+
+.title,
+.name {
+    color: var(--Magnolia);
+    text-transform: uppercase;
+}
+
+.title {
+    font-weight: 200;
+    font-size: small;
+}

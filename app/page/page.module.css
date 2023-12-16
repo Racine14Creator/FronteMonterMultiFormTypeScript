@@ -1,0 +1,12 @@
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex3 {
+    flex: 3;
+}
