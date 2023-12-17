@@ -12,7 +12,7 @@ const Sidebar = () => {
             <ul>
                 {steps.map(item => (
                     <li className={`${styles.flex} my-5 cursor-pointer`} key={item.id}>
-                        <span className={`${styles.number} ${item.id === 1 ? styles.ActiveIcon + ' text-black' : ''} flex justify-center items-center text-white text-bold p-4 border-white border w-[40px] h-[40px] rounded-full`}>{item.id}</span>
+                        <span className={`${styles.number} ${item.id == 1 ? styles.ActiveIcon + ' text-black' : ''} flex justify-center items-center text-white text-bold p-4 border-white border w-[40px] h-[40px] rounded-full`}>{item.id}</span>
                         <div className={`${styles.col} flex flex-col`}>
                             <span className={styles.title}>{item.title}</span>
                             <span className={styles.name}>{item.name}</span>

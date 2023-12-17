@@ -1,3 +1,8 @@
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
 .flex {
     display: flex;
     gap: 10px;

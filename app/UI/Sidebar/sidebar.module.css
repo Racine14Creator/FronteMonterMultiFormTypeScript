@@ -4,7 +4,8 @@
     border-radius: 10px;
     background-image: url("../../../public/assets/images/bg-sidebar-desktop.svg");
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .flex {
@@ -14,6 +15,7 @@
 
 .ActiveIcon {
     background-color: var(--Magnolia);
+    color: #000;
 }
 
 .title,
@@ -25,4 +27,8 @@
 .title {
     font-weight: 200;
     font-size: small;
+}
+
+.name {
+    font-weight: 700;
 }
