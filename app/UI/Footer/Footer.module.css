@@ -1,0 +1,17 @@
+.button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: var(--MarineBlue);
+    color: var(--White);
+}
+
+.button.back {
+    padding: 0;
+    background: none;
+    color: var(--MarineBlue);
+    font-weight: 700;
+}
+
+.button.disable {
+    cursor: not-allowed;
+}

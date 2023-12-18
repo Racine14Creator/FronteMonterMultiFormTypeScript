@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -32,4 +33,14 @@ body {
 
 .wrapperMain {
   padding: 30px 50px;
+}
+
+.content {
+  position: relative;
+  width: 70%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px auto;
 }

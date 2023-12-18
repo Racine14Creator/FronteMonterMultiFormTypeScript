@@ -5,10 +5,9 @@ const steps = [
     { id: 3, title: 'Step 3', name: "Add-ons" },
     { id: 4, title: 'Step 4', name: "Summary" },
 ]
-
 const Sidebar = () => {
     return (
-        <div className={styles.container}>
+        <div className={`${styles.container}`}>
             <ul>
                 {steps.map(item => (
                     <li className={`${styles.flex} my-5 cursor-pointer`} key={item.id}>

@@ -1,0 +1,17 @@
+.flex {
+    position: relative;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flex1 {
+    flex: 1;
+    position: relative;
+}
+
+.flex2 {
+    position: relative;
+    flex: 3;
+    height: 100dvh;
+}
