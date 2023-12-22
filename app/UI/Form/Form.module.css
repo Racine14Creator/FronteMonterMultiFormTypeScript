@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--colorTitle);
+}
+
+.top {
+    margin: 0 0 30px 0;
+}
+
+.top p {
+    color: var(--coolgray);
+}
+
+.group {
+    margin: 20px 0;
+}
+
+.input {
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    border: 2px solid var(--coolgray);
+    border-radius: .4rem;
+    padding: 10px;
+    font-weight: 600;
+    color: var(--purplishBlue);
+}
+
+.input:focus {
+    border: 2px solid var(--purplishBlue);
+}
+
+.flex {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.error {
+    color: var(--strawberryRed);
+    font-weight: 600;
+}

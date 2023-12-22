@@ -12,6 +12,7 @@
   --background-end-rgb: 255, 255, 255;
   --mobile: 375px;
   --desktop: 1440px;
+  --colorTitle: hsl(240, 49%, 7%);
   --MarineBlue: hsl(213, 96%, 18%);
   --purplishBlue: hsl(243, 100%, 62%);
   --lightBlue: hsl(228, 100%, 84%);

@@ -1,9 +1,10 @@
 
+import Form from "@/app/UI/Form/Form"
 
 const App = () => {
   return (
     <>
-      <h3>Hello</h3>
+      <Form />
     </>
   )
 }
